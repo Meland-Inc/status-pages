@@ -4,19 +4,19 @@
     "url": "https://web-runtime-release.easybits.cn/",
     "icon": "https://favicons.githubusercontent.com/web-runtime-release.easybits.cn",
     "slug": "web-runtime",
-    "status": "down",
-    "uptime": "99.85%",
-    "uptimeDay": "95.94%",
-    "uptimeWeek": "99.42%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.85%",
-    "time": 1018,
-    "timeDay": 930,
-    "timeWeek": 919,
-    "timeMonth": 1018,
-    "timeYear": 1018,
+    "status": "up",
+    "uptime": "99.68%",
+    "uptimeDay": "91.39%",
+    "uptimeWeek": "98.77%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
+    "time": 1013,
+    "timeDay": 916,
+    "timeWeek": 914,
+    "timeMonth": 1013,
+    "timeYear": 1013,
     "dailyMinutesDown": {
-      "2021-11-04": 58
+      "2021-11-04": 123
     }
   }
 ]
