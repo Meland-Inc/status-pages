@@ -5,16 +5,16 @@
     "icon": "https://favicons.githubusercontent.com/web-runtime-release.easybits.cn",
     "slug": "web-runtime",
     "status": "up",
-    "uptime": "99.72%",
+    "uptime": "99.73%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "98.77%",
     "uptimeMonth": "99.72%",
-    "uptimeYear": "99.72%",
-    "time": 1006,
-    "timeDay": 1380,
-    "timeWeek": 912,
-    "timeMonth": 1006,
-    "timeYear": 1006,
+    "uptimeYear": "99.73%",
+    "time": 1018,
+    "timeDay": 1454,
+    "timeWeek": 967,
+    "timeMonth": 1017,
+    "timeYear": 1018,
     "dailyMinutesDown": {
       "2021-11-04": 123
     }
