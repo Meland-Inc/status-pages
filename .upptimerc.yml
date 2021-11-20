@@ -3,10 +3,14 @@ repo: status-pages
 
 sites:
   - name: web-runtime
-    url: https://web-runtime-release.easybits.cn/
+    url: https://web-runtime-release.melandworld.com/
+  - name: web-site
+    url: https://meland.ai/
+  - name: www-web-site
+    url: https://www.meland.ai/
 
 status-website:
-  cname: status.easybits.cn
+  cname: status.melandworld.com
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: meland status
   introTitle: "Meland.ai status pages"
