@@ -1,6 +1,6 @@
 # [📈 Live Status](https://status.easybits.cn): <!--live status--> **🟩 All systems operational**
 
-This repository contains the open-source uptime monitor and status page for [iCodeWorld](https://www.icodeworld.cn), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for [Meland.ai](https://www.icodeworld.cn), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/ICodeWorld-Inc/status-pages/workflows/Uptime%20CI/badge.svg)](https://github.com/ICodeWorld-Inc/status-pages/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/ICodeWorld-Inc/status-pages/workflows/Response%20Time%20CI/badge.svg)](https://github.com/ICodeWorld-Inc/status-pages/actions?query=workflow%3A%22Response+Time+CI%22)
@@ -27,5 +27,5 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
-- Code: [MIT](./LICENSE) © [iCodeWorld](https://www.icodeworld.cn)
+- Code: [MIT](./LICENSE) © [Meland.ai](https://www.icodeworld.cn)
 - Data in the `./history` directory: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
