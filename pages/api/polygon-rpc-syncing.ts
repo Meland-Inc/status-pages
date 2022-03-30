@@ -6,6 +6,15 @@ type Data = {
 
 const rpc = "https://bor-rpc-fast2-polygon.melandworld.com";
 
+const jsonToHTMLHelp = (json: { [keyof: string]: string }) => {
+  return Object.keys(json).map(k => {
+    return `<p>
+      <span class="key">${k}:</sapn>
+      <span class="value">${json[k]}</sapn>
+    </p>`
+  }).join("")
+}
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
@@ -23,22 +32,33 @@ export default async function handler(
   });
 
   if (!fetchres.ok) {
+    res.send(jsonToHTMLHelp({
+      "status": "error",
+      "error": "fetch error, polygon rpc node is not down",
+    }));
     res.status(fetchres.status).end();
     return;
   }
 
   const data = await fetchres.json();
   if (data.result.currentBlock) {
-    res.status(500).json({
-      isSyncing: data.result.currentBlock !== data.result.highestBlock,
-      currentBlock: data.result.currentBlock,
-      highestBlock: data.result.highestBlock,
-      diffBlock: data.result.highestBlock - data.result.currentBlock,
-    });
+    res.status(500).send(jsonToHTMLHelp(
+      {
+        status: "syning",
+        msg: "Working on synchronizing the latest blocks",
+        isSyncing: `${data.result.currentBlock !== data.result.highestBlock}`,
+        currentBlock: `${parseInt(data.result.currentBlock)}`,
+        highestBlock: `${parseInt(data.result.highestBlock)}`,
+        diffBlock: `${data.result.highestBlock - data.result.currentBlock}`,
+      }
+    ))
     res.end();
     return
   }
 
-  res.write(JSON.stringify(data));
+  res.send(jsonToHTMLHelp({
+    "status": "normal",
+    "msg": "polygon rpc node is runing",
+  }));
   res.status(200).end();
 }
