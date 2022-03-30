@@ -45,7 +45,7 @@ export default async function handler(
     res.status(500).send(jsonToHTMLHelp(
       {
         status: "syning",
-        msg: "Working on synchronizing the latest blocks",
+        msg: "working on synchronizing the latest blocks",
         isSyncing: `${data.result.currentBlock !== data.result.highestBlock}`,
         currentBlock: `${parseInt(data.result.currentBlock)}`,
         highestBlock: `${parseInt(data.result.highestBlock)}`,
