@@ -33,6 +33,7 @@ export default async function handler(
       isSyncing: data.result.currentBlock !== data.result.highestBlock,
       currentBlock: data.result.currentBlock,
       highestBlock: data.result.highestBlock,
+      diffBlock: data.result.highestBlock - data.result.currentBlock,
     });
     res.end();
     return
