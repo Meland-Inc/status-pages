@@ -8,10 +8,8 @@ sites:
     url: https://meland.ai/
   - name: www-web-site
     url: https://www.meland.ai/
-  - name: polygon-rpc-node
-    url: https://bor-rpc-fast2-polygon.melandworld.com
   - name: polygon-rpc-syning
-    url: https://bor-rpc-fast2-polygon.melandworld.com
+    url: https://status-pages.vercel.app/api/polygon-rpc-syncing
 
 status-website:
   cname: status.melandworld.com
