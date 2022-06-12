@@ -1,7 +1,7 @@
 url: https://status-pages.vercel.app/api/polygon-rpc-syncing
-status: up
-code: 200
-responseTime: 2073
-lastUpdated: 2022-06-12T13:42:17.282Z
+status: down
+code: 500
+responseTime: 1934
+lastUpdated: 2022-06-12T13:52:33.429Z
 startTime: Wed Mar 30 2022 06:17:16 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
