@@ -76,14 +76,14 @@
     "url": "https://status-pages.vercel.app/api/polygon-rpc-syncing",
     "icon": "https://favicons.githubusercontent.com/status-pages.vercel.app",
     "slug": "polygon-rpc-syning",
-    "status": "up",
-    "uptime": "94.00%",
-    "uptimeDay": "76.98%",
+    "status": "down",
+    "uptime": "94.38%",
+    "uptimeDay": "76.96%",
     "uptimeWeek": "86.69%",
     "uptimeMonth": "84.34%",
-    "uptimeYear": "94.00%",
+    "uptimeYear": "94.38%",
     "time": 1929,
-    "timeDay": 2065,
+    "timeDay": 2058,
     "timeWeek": 1908,
     "timeMonth": 1925,
     "timeYear": 1929,
@@ -124,8 +124,7 @@
       "2022-04-26": 78,
       "2022-04-25": 20,
       "2022-04-15": 23,
-      "2022-04-05": 16,
-      "2022-03-30": 491
+      "2022-04-05": 16
     }
   }
 ]
