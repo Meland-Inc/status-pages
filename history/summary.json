@@ -5,11 +5,11 @@
     "icon": "https://favicons.githubusercontent.com/web-runtime-release.melandworld.com",
     "slug": "web-runtime",
     "status": "up",
-    "uptime": "96.06%",
+    "uptime": "96.07%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.94%",
-    "uptimeYear": "96.06%",
+    "uptimeYear": "96.07%",
     "time": 1004,
     "timeDay": 1009,
     "timeWeek": 974,
@@ -76,15 +76,15 @@
     "url": "https://status-pages.vercel.app/api/polygon-rpc-syncing",
     "icon": "https://favicons.githubusercontent.com/status-pages.vercel.app",
     "slug": "polygon-rpc-syning",
-    "status": "up",
-    "uptime": "93.78%",
-    "uptimeDay": "43.05%",
+    "status": "down",
+    "uptime": "93.85%",
+    "uptimeDay": "49.37%",
     "uptimeWeek": "73.73%",
-    "uptimeMonth": "80.92%",
-    "uptimeYear": "93.78%",
+    "uptimeMonth": "81.11%",
+    "uptimeYear": "93.85%",
     "time": 1939,
-    "timeDay": 2162,
-    "timeWeek": 1966,
+    "timeDay": 2223,
+    "timeWeek": 1961,
     "timeMonth": 1940,
     "timeYear": 1939,
     "dailyMinutesDown": {
@@ -114,7 +114,7 @@
       "2022-06-08": 97,
       "2022-06-06": 42,
       "2022-06-05": 27,
-      "2022-06-02": 106
+      "2022-06-02": 20
     }
   }
 ]
