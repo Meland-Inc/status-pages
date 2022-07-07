@@ -4,7 +4,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 type Data = {
 }
 
-const rpc = "https://bor-rpc-fast2-polygon.melandworld.com";
+const rpc = "https://nd-423-043-412.p2pify.com/4827e847837107fdd7166679b047c668";
 
 const jsonToHTMLHelp = (json: { [keyof: string]: string }) => {
   return Object.keys(json).map(k => {
