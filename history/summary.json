@@ -8,7 +8,7 @@
     "uptime": "88.60%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "25.38%",
+    "uptimeMonth": "25.36%",
     "uptimeYear": "88.60%",
     "time": 990,
     "timeDay": 986,
@@ -16,7 +16,7 @@
     "timeMonth": 838,
     "timeYear": 990,
     "dailyMinutesDown": {
-      "2022-07-26": 575,
+      "2022-07-26": 584,
       "2022-07-25": 1440,
       "2022-07-24": 1440,
       "2022-07-23": 1440,
@@ -64,19 +64,19 @@
     "url": "https://meland.ai/",
     "icon": "https://favicons.githubusercontent.com/meland.ai",
     "slug": "web-site",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.39%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 332,
-    "timeDay": 709,
-    "timeWeek": 406,
-    "timeMonth": 299,
+    "timeDay": 463,
+    "timeWeek": 382,
+    "timeMonth": 297,
     "timeYear": 332,
     "dailyMinutesDown": {
-      "2022-07-26": 1
+      "2022-07-26": 9
     }
   },
   {
@@ -106,7 +106,7 @@
     "uptime": "85.34%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "56.50%",
+    "uptimeMonth": "56.48%",
     "uptimeYear": "85.34%",
     "time": 1901,
     "timeDay": 961,
@@ -114,7 +114,7 @@
     "timeMonth": 1820,
     "timeYear": 1901,
     "dailyMinutesDown": {
-      "2022-07-26": 576,
+      "2022-07-26": 584,
       "2022-07-25": 1440,
       "2022-07-24": 1440,
       "2022-07-23": 1440,
